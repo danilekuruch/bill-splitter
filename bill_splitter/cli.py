@@ -1,6 +1,6 @@
 import argparse
-from models import Bill
-from splitter import split_with_lucky
+from .models import Bill
+from .splitter import split_with_lucky
 
 
 def run_cli():

@@ -1,5 +1,5 @@
 import random
-from models import Bill
+from .models import Bill
 
 
 def split_with_lucky(bill: Bill) -> tuple[dict[str, float], str]:
